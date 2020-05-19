@@ -1,0 +1,17 @@
+{
+    "name": "result-type/result-type",
+    "description": "Classes for various Result types to implement Either pattern.",
+    "readme": "http://github.com/jimkingsepp",
+    "authors": [{
+        "name": "Jim Kingsepp",
+        "email": "jimkingsepp@gmail.com"
+    }],
+    "require": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "classmap": [
+            "Result.php"
+        ]
+    }
+}
