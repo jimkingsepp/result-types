@@ -103,7 +103,7 @@ class ResultTest extends TestCase
 		
 		$object = new TestObject();
 		$result = TestObjectResult::success($object);
-		$this->assertSame("I am a Test Object!", $result->value());
+		$this->assertSame("I am a Test Object!", $result->value()->declareMyself());
 		
 		$this->expectExceptionMessage("Type mismatch: expected TestObject; found string");
 		TestObjectResult::success("Test Object");
